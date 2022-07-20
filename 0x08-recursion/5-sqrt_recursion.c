@@ -1,16 +1,31 @@
 #include "main.h"
 
+int _squrt(int,int);
+
 /**
- * _pow_recursion - returns the value of x raised to the power of y
- * @x: base number
- * @y: exponent
- * Return: x ^ y or -1 if y < 0
+ *_sqrt_recursion -> sqrt using recursion
+ *@n: parameter to be sqrt
+ *Return: square root of a number
  */
-int _pow_recursion(int x, int y)
+
+int _sqrt_recursion(int n)
 {
-	if (y < 0)
+	return (_sqrt(n, 1));
+}
+
+/**
+ *_sqrt -> recursive square root
+ *@n: number
+ *@i: iterator
+ *Return: a number
+ */
+int _sqrt(int n, int i)
+{
+	int square = i * i;
+
+	if (square > n)
 		return (-1);
-	if (y == 0)
-		return (1);
-	return (x * _pow_recursion(x, y - 1));
+	if (square == n)
+		return (i);
+	return (_sqrt(n, i + 1));
 }
