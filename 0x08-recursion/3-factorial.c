@@ -5,7 +5,7 @@
  *@n: integer param
  *Return: an integer
  */
-int factorial(int n);
+int factorial(int n)
 {
 
 	if (n < 0)
