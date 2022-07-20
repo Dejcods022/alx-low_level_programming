@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_pow_recursion -> function for power recursion
- *@x:x^Y
- *@y: the ecponent
+ * _pow_recursion -> function for power recursion
+ *@x: x ^ Y
+ *@y: the exponent
  *return: power result
  */
 int _pow_recursion(int x, int y)
