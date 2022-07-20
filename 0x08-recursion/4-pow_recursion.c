@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *_pow_recursion -> power recursion
+ *_pow_recursion -> function for power recursion
  *@x:x^Y
  *@y: the ecponent
- *return: exponential number
+ *return: power result
  */
 int _pow_recursion(int x, int y)
 {
