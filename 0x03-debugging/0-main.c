@@ -3,18 +3,19 @@
 #include <stdio.h>
 
 /**
- * main function - tests if an integer is positive or negative
+ * positive_or_negative - tests if an integer is positive or negative
+ * @i: an integer parameter
+ * @n: an integer parameter
  * Retun: Always 0 (success)
  */
 
 void positive_or_negative(int i)
 {
 	int n;
-
-	n == i;
+	int i;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = i;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	if (n == 0)
